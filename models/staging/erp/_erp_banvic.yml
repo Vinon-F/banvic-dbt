@@ -1,0 +1,9 @@
+
+sources:
+  - name: dev
+    schema: erp_banvic
+    tables:
+      - name: localidades
+        description: Tabela fonte localidades com informação de cidade e estado.
+      - name: clientes
+        description: Tabela fonte de clientes com informação pessoal de cada cliente da Banvic.
